@@ -1,0 +1,43 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "Backend App for Portfolio Web App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --runInBand ./tests",
+    "dev": "nodemon index.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "author": "mudabir",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "jest": "^27.4.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.3.1",
+    "mongodb-memory-server": "^8.2.0",
+    "mongoose": "^6.1.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2",
+    "validator": "^13.7.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mudabir94/portfolio_api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mudabir94/portfolio_api/issues"
+  },
+  "homepage": "https://github.com/mudabir94/portfolio_api#readme"
+}
